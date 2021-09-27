@@ -17,7 +17,7 @@ h1,h2,h3,h4,h5,h6{
 
 .content h1{
     font-family: 'Kaushan Script', cursive;
-    color: #472220;
+    color: #ffffff;
     font-size: 50px;
     text-shadow: 4px 4px 5px rgba(0,0,0,0.5);
 }
@@ -25,8 +25,6 @@ h1,h2,h3,h4,h5,h6{
 .content{
     text-align: center;
 }
-
-
 
 .cover{
     position: relative;
@@ -47,13 +45,13 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .info{
-    background-color: #1c1c1d;
+    background-color: #33338f;
     color: white;
     padding: 20px;
 }
 
 .info-2{
-    background-color: #2196F3;
+    background-color: #0b2a44;
     color: white;
     padding: 40px;
 }
@@ -96,7 +94,7 @@ h1,h2,h3,h4,h5,h6{
     font-size: 50px;
     margin: 15px 0;
     text-align: center;
-    text-transform: uppercase;
+    text-transform:lowercase;
     letter-spacing: 5px;
 }
 
@@ -111,7 +109,7 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Signika Negative', sans-serif;
     font-size: 25px;
     margin: 5px 0 10px 0;
-    text-transform: uppercase;
+    text-transform: lowercase;
     letter-spacing: 5px;
 }
 
@@ -139,7 +137,7 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 600;
     margin: 10px 0;
     display: inline-block;
-    transition: 0.2s;
+    transition: 0.3s;
     box-shadow: 0px 1px 3px black;
 }
 
@@ -149,7 +147,7 @@ h1,h2,h3,h4,h5,h6{
 
 .btn:hover{
     transform: scale(1.2);
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     background-color: #D74932;
     color: white;
 }
